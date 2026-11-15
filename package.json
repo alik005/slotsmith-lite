@@ -1,0 +1,54 @@
+{
+  "name": "slotsmith-lite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "db:push": "prisma db push",
+    "db:seed": "tsx prisma/seed.ts",
+    "setup": "prisma db push && tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@date-fns/tz": "^1.4.1",
+    "@prisma/client": "^6.16.2",
+    "date-fns": "^4.1.0",
+    "next": "15.5.4",
+    "nodemailer": "^7.0.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^7.0.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "prisma": "^6.16.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.5",
+    "typescript": "^5",
+    "vitest": "^3.2.4"
+  },
+  "allowScripts": {
+    "@prisma/engines@6.16.2": true,
+    "@prisma/client@6.16.2": true,
+    "prisma@6.16.2": true,
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.2": true,
+    "sharp@0.34.5": true,
+    "unrs-resolver@1.13.0": true
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "license": "MIT"
+}
