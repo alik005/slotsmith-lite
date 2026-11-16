@@ -37,6 +37,10 @@ Services, staff and hours are configured in `prisma/seed.ts`.
 
 ![Admin dashboard](docs/screenshot-admin.png)
 
+## Don't want to set it up yourself?
+
+We'll set up and deploy a booking site for your business (services, staff, hours, emails, your domain) in 5 business days: **[Online Booking Website, Done For You](https://steadyledgershop.gumroad.com/l/booking-site-setup)**.
+
 ## Lite vs Pro
 
 | | Lite (free) | [Pro](https://steadyledgershop.gumroad.com/l/slotsmith-pro) |
